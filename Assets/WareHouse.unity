@@ -11155,7 +11155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee280f63be508a4b8df1ce9588561d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conveyorSpeed: 5
+  conveyorSpeed: 3
   _hasABox: 0
 --- !u!1001 &1023178417
 PrefabInstance:
@@ -12311,6 +12311,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d7c3544a8323d944a4f782bf9bd07bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxValues:
+  - {fileID: 11400000, guid: 182e5495bad11e34f881b61d6e72f163, type: 2}
+  - {fileID: 11400000, guid: aabf356ee51710645941301b0de5b4a7, type: 2}
+  - {fileID: 11400000, guid: 9924ac6ddb4bc61499ccc8991b821726, type: 2}
+  - {fileID: 11400000, guid: 74c8373d97260fa4ca352d3e076c7c99, type: 2}
   hud: {fileID: 1970762356}
 --- !u!65 &1145036475
 BoxCollider:
@@ -12331,8 +12336,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9063473, y: 1.634536, z: 0.27803373}
-  m_Center: {x: -0.06734371, y: 0.317268, z: -0.36098313}
+  m_Size: {x: 2.8820667, y: 2.5280898, z: 0.5359421}
+  m_Center: {x: -0.031395912, y: 0.43024623, z: -0.4183569}
 --- !u!1001 &1155246188
 PrefabInstance:
   m_ObjectHideFlags: 0

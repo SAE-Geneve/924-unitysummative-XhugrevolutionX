@@ -22,6 +22,6 @@ public class HUD : MonoBehaviour
     {
         if (_scoreLabel == null)
             return;
-        _scoreLabel.text = score.ToString() + " Boxes Delivered";
+        _scoreLabel.text = "Score : " + score.ToString();
     }
 }

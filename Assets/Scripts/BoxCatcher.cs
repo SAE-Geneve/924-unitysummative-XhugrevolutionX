@@ -58,12 +58,10 @@ public class BoxCatcher : MonoBehaviour
 
             }
         }
-
     }
 
     void ReleaseBox()
     {
-        
         if (_catchedBox != null)
         {
             ParentConstraint pc = _catchedBox.GetComponent<ParentConstraint>();
@@ -73,7 +71,6 @@ public class BoxCatcher : MonoBehaviour
             _catchedBox = null;
             
         }
-
     }
 
 

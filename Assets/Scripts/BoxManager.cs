@@ -31,7 +31,7 @@ public class BoxManager : MonoBehaviour
             {
                 if (!conveyors[_conveyorID]._hasABox)
                 {
-                    Instantiate(boxesPrefabs[Random.Range(0, 5)], dispenderPoints[_conveyorID].position, Quaternion.identity, transform);
+                    Instantiate(boxesPrefabs[Random.Range(0, 4)], dispenderPoints[_conveyorID].position, Quaternion.identity, transform);
                     if (_conveyorID >= conveyors.Length - 1)
                     {
                         _conveyorID = 0;

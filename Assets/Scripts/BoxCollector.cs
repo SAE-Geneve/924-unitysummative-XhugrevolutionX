@@ -19,13 +19,13 @@ public class BoxCollector : MonoBehaviour
     }
 
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Box"))
+        if (other.gameObject.CompareTag("Box"))
         {
             Debug.Log("Box Delivered");
             
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
             _score++;
             hud.SetScore(_score);
         }

@@ -118,9 +118,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoxLong
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4421188590085011580, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+      propertyPath: lifeSpan
+      value: 40
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3129519863225467512, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+    - {fileID: 2151965631085026191, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
     m_RemovedGameObjects:
     - {fileID: 6431247872273585125, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+    - {fileID: 4369927021891289823, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
+    - {fileID: 9024840777707572406, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 687253051072957895, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
       insertIndex: -1
@@ -201,6 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d1c0c198b607e14fa984893f741d095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lifeSpan: 40
 --- !u!4 &4213989993282369402 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 687253051072957895, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}

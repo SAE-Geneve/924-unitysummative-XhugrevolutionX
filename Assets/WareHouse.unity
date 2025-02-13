@@ -5300,7 +5300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee280f63be508a4b8df1ce9588561d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conveyorSpeed: 5
+  conveyorSpeed: 3
   _hasABox: 0
 --- !u!1001 &438619732
 PrefabInstance:
@@ -10715,7 +10715,6 @@ MonoBehaviour:
   - {fileID: 438486947}
   - {fileID: 1895448774}
   boxesPrefabs:
-  - {fileID: 3487495913732295911, guid: 7091e50ec94ca554a878fe1fd70ef218, type: 3}
   - {fileID: 4563482795686120250, guid: 326ce6f439b868a4aabf053e69676b63, type: 3}
   - {fileID: 9122987815028047596, guid: 0404dca2e1568cf41aa96506d338a23c, type: 3}
   - {fileID: 257997783880398426, guid: ba5818f6694d5fb408f51a8a3d23a384, type: 3}
@@ -10724,7 +10723,8 @@ MonoBehaviour:
   - {fileID: 756841468}
   - {fileID: 444869612}
   - {fileID: 420573623}
-  spawnDelay: 2
+  spawnDelay: 3
+  nbBoxLimit: 10
 --- !u!1001 &983020622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12327,12 +12327,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9063473, y: 1.663116, z: 1}
-  m_Center: {x: -0.06734371, y: 0.331558, z: 0}
+  m_Size: {x: 1.9063473, y: 1.634536, z: 0.27803373}
+  m_Center: {x: -0.06734371, y: 0.317268, z: -0.36098313}
 --- !u!1001 &1155246188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14239,7 +14239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee280f63be508a4b8df1ce9588561d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conveyorSpeed: 5
+  conveyorSpeed: 3
   _hasABox: 0
 --- !u!1 &1302788214
 GameObject:
@@ -21203,7 +21203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee280f63be508a4b8df1ce9588561d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conveyorSpeed: 5
+  conveyorSpeed: 3
   _hasABox: 0
 --- !u!1001 &1919503618
 PrefabInstance:
